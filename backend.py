@@ -76,7 +76,7 @@ def HandleContent():
     #print(content)
 
     client = Groq(
-        api_key="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"
+        api_key=os.environ.get("GROQ_API_KEY"),
     )
     chat_completion = client.chat.completions.create(
         messages=[
