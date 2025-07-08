@@ -26,7 +26,7 @@ import re
 
 
 app = Flask(__name__)
-CORS()
+CORS(app)
 
 
 
