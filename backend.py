@@ -8,6 +8,8 @@ import nltk
 nltk.download('punkt_tab')
 nltk.download('stopwords')
 nltk.download('rslp')
+nltk.download('punkt')
+
 
 from nltk import tokenize
 from nltk.corpus import stopwords
